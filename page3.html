@@ -1,0 +1,28 @@
+<head>
+    <meta charset="UTF-8">
+    <title>MiniPaint</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style3.css'>
+</head>
+<body>
+<div class="Toolbar">
+    <h10 style="color:white">~ Цвет ~</h10><br>
+    <button class="red" id="redPen"  alt="Красная кисть" onclick="changeColor('rgb(212,21,29)', this)">Красный</button>
+    <button class="green" id="greenPen" alt="Зеленая кисть" onclick="changeColor('rgb(131,190,61)', this)">Зеленый</button>
+    <button class="blue" id="bluePen"  alt="Синяя кисть" onclick="changeColor('rgb(0,86,166)', this)">Синий</button>
+</div>
+<div class="Toolbar">
+    <h10 style="color:white">~ Толщина ~</h10><br>
+    <button  class="btn" alt="Тонкая кисть" onclick="changeThickness(1, this)">Тонкая</button>
+    <button  class="btn" alt="Нормальная кисть" onclick="changeThickness(5, this)">Нормальная</button>
+    <button  class="btn" alt="Толстая кисть" onclick="changeThickness(10, this)">Толстая</button>
+</div>
+<div class="CanvasContainer">
+    <canvas id="drawingCanvas" width="500" height="300"></canvas>
+</div>
+<div class="Toolbar">
+    <h10 style="color:white">~ Операции ~</h10><br>
+    <button class="btn" onclick="clearCanvas()">Очистить Canvas</button>
+</div>
+
+<script src="code3.js"></script>
+</body>

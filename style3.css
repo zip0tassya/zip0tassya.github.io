@@ -1,0 +1,46 @@
+body {
+    background: white;
+}
+
+.Toolbar {
+    float: left;
+    font-size: 14px;
+    font-variant: small-caps;
+    text-align: center;
+    background: black;
+    padding: 10px 15px 3px 10px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    border: 1px solid #7B899B;
+}
+
+.Toolbar button {
+    padding: 6px;
+    margin: 7px 2px;
+    font-variant: normal;
+    font-size: 12px;
+}
+
+.CanvasContainer {
+    clear: both;
+}
+
+canvas {
+    border: 1px solid #7B899B;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.btn {
+  background: grey;
+}
